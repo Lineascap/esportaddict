@@ -1,0 +1,88 @@
+.form {
+    display: block;
+    margin-left: 500px;
+    width: 800px;
+    margin-top: 30px;
+}
+
+footer {
+    margin-top: 200%;
+    width: 100%;
+    bottom: 0px;
+           }
+
+.solo{
+    margin-top: 200px;
+}
+.card-title{
+    text-align: center;
+    font-weight: bold;
+    text-shadow: teal;
+    }
+.card-text{
+    height: 200px;
+}
+h2 {
+    text-align: center;
+}
+
+.gauche {
+    float: left;
+    display: block;
+    margin-left: 500px;
+    width: 200px;
+    margin-top: 30px;
+    text-align: justify;
+}
+.droite {
+    float: right;
+    display: block;
+    margin-right: 500px;
+    width: 200px;
+    margin-top: 30px;
+    text-align: justify;
+    position:relative;}
+
+html{
+    height: 100%;
+}
+body{
+    background-color:  	rgb(211,211,211);
+}
+.intro{
+    text-align: center;
+    display: block;
+    background-color: white;
+}
+.intro2{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 2rem;
+}
+.titre{
+    font-weight: bold;
+    padding-bottom: 2rem;
+    
+}
+.table{
+    margin-top: 30px;
+    
+}
+@media screen and  (max-height: 400px) {
+    .gauche {
+        margin-left: -13px;
+    }
+}
+
+ @media screen and  (max-height: 400px) {
+    .droite {
+        margin-right: -13px;
+          }
+  }
+  
+@media screen and  (max-height: 800px) {
+    main {
+        margin-left: auto;
+        margin-top: 30px;
+  }
+}
